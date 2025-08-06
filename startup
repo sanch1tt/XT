@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+echo "
+            
+╭╮╱╭╮╱╱╱╱╱╱╱╭╮╱╱╱╱╭╮
+┃┃╱┃┃╱╱╱╱╱╱╱┃┃╱╱╱╭╯╰╮
+┃┃╱┃┣━━┳━━┳━┫╰━┳━┻╮╭╯
+┃┃╱┃┃━━┫┃━┫╭┫╭╮┃╭╮┃┃
+┃╰━╯┣━━┃┃━┫┃┃╰╯┃╰╯┃╰╮
+╰━━━┻━━┻━━┻╯╰━━┻━━┻━╯
+
+      Visit @xteam_cloner for updates!!
+"
+
+# Run app.py in background (if needed)
+python app.py &
+
+# Start the assistant module (Ultroid bot)
+python3 -m assistant
